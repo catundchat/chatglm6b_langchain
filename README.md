@@ -1,0 +1,2 @@
+# chatglm6b_langchain
+基于ChatGLM-6b+langchain实现本地化知识库检索与智能答案生成
