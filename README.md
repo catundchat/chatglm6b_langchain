@@ -33,12 +33,21 @@ Milchstrasse
 | gpt-3.5-turbo | ✔️ |
 | gpt-4 | ✔️ |
 
-## 使用
+### 使用
 
-1. Web 端直接使用对话机器人：[Psychology Q&A](https://udify.app/chat/vXCCPTRUjWIBdang)
+1. Web 端对话机器人：[Psychology Q&A](https://udify.app/chat/vXCCPTRUjWIBdang)
 
 2. API : 支持对话型应用 API 调用
 
 [官网](https://dify.ai) 
 
 ## Comparison
+
+| 特性 | CHATGLM-6B+Langchain | Dify |
+|:---|:---:|:---:|
+| 可使用数据库 | ✔️ | ✔️ |
+| 支持的数据类型 | ? |txt,html,markdown,pdf |
+|数据上传|?|单个文件|
+|   可使用 GPT-4  |  ❌  |  ✔️   |
+|API调用|?|✔️|
+
