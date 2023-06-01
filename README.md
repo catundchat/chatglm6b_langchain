@@ -18,7 +18,7 @@ Milchstrasse
    
 3. 文档索引：
 
-    a. 嵌入：调用 OpenAI embedding 接口，在用户查询时准确度更高(0.001$/1000 tokens)
+    a. 嵌入：调用 OpenAI embedding 接口，在用户查询时准确度更高(0.002$/1000 tokens)
    
     b. 其他索引方法：离线向量引擎索引，关键词索引，倒排索引，位图索引等(0 token)
     
