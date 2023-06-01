@@ -31,7 +31,9 @@ Milchstrasse
 | 模型 | 能否使用 |
 |:---|:---:|
 | gpt-3.5-turbo | ✔️ |
-| gpt-4 | ✔️ |
+| gpt-4 | ❌ |
+
+注：官网上显示支持 gpt-4 模型，实测会报错`gpt-4 doesn't exist`
 
 ### 使用
 
@@ -48,6 +50,6 @@ Milchstrasse
 | 可使用数据库 | ✔️ | ✔️ |
 | 支持的数据类型 | ? |txt,html,markdown,pdf |
 |数据上传|?|单个文件|
-|   可使用 GPT-4  |  ❌  |  ✔️   |
+|   可使用 GPT-4  |  ❌  |  ❌   |
 |API调用|?|✔️|
 
