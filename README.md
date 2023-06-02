@@ -6,17 +6,25 @@
 
 ## ChatGLM-6B+Langchain
 
-### 搭建过程
+### 运行配置
 
-1. 深度学习工作站配置 ：GPU:RTX 4090 , CPU: Intel(R) Xeon(R) CPU E5-2660 v2
+- 显存 ≥ 12GB ， 运行内存 ≥ 32GB
 
-2. 创建并激活虚拟环境
+- 深度学习工作站：GPU: RTX 4090, CPU: Intel(R) Xeon(R) CPU E5-2660 v2
+
+### 搭建流程
+
+1. 创建并激活虚拟环境 `python3 -m venv env`
+
+2. 克隆GitHub repository `git clone https://github.com/catundchat/Chinese-LangChain.git`
+
+3. 安装所需库 `pip install -r requirements.txt`
+
+4. 按需修改 `main.py` 文件中的文件路径，代码块，应用选择后运行即可。 
 
 ### 使用
 
 
-
-Milchstrasse
 
 ## Dify
 
