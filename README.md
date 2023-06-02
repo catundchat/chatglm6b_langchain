@@ -6,10 +6,17 @@
 
 ## ChatGLM-6B+Langchain
 
+### 知识库向量索引
+
+- 中文维基百科截止4月份数据，45万
+- 截止去年九月的130w条中文维基百科处理结果和对应faiss向量文件
+- 金融研报知识图谱
+- 以上共 23GB 资料
+- [下载链接](https://pan.baidu.com/s/1lcI1JHArTWlOpcSiDH1O3A) 提取码: u6ep
+
 ### 运行配置
 
 - 显存 ≥ 12GB ， 运行内存 ≥ 32GB
-
 - 深度学习工作站：GPU: RTX 4090, CPU: Intel(R) Xeon(R) CPU E5-2660 v2
 
 ### 搭建流程
@@ -64,8 +71,8 @@
 | 特性 | CHATGLM-6B+Langchain | Dify |
 |:---|:---:|:---:|
 | 可使用数据库 | ✔️ | ✔️ |
-| 支持的数据类型 | ? |txt,html,markdown,pdf |
-|数据上传|?|单个文件|
+| 支持的数据类型 | md、pdf、docx、txt | txt,html,markdown,pdf |
+|数据上传|单个文件|单个文件|
 |   可使用 GPT-4  |  ❌  |  ✔️   |
-|API调用|?|✔️|
+|API调用|❌|✔️|
 
