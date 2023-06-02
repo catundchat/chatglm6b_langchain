@@ -10,7 +10,11 @@
 
 1. 深度学习工作站配置 ：GPU:RTX 4090 , CPU: Intel(R) Xeon(R) CPU E5-2660 v2
 
-2. 创建并激活虚拟环境，在虚拟环境中
+2. 创建并激活虚拟环境
+
+### 使用
+
+
 
 Milchstrasse
 
@@ -45,9 +49,7 @@ Milchstrasse
 
 1. Web 端对话机器人：[Psychology Q&A](https://udify.app/chat/vXCCPTRUjWIBdang)
 
-2. API : 支持对话型应用 API 调用
-
-[官网](https://dify.ai) 
+2. API : 支持调用对话型应用 API  [官网](https://dify.ai) 
 
 ## Comparison
 
