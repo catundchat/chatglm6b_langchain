@@ -6,6 +6,12 @@
 
 ## ChatGLM-6B+Langchain
 
+### 搭建过程
+
+1. 深度学习工作站配置 ：GPU:RTX 4090 , CPU: Intel(R) Xeon(R) CPU E5-2660 v2
+
+2. 创建并激活虚拟环境，在虚拟环境中
+
 Milchstrasse
 
 ## Dify
