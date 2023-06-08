@@ -62,7 +62,7 @@
 
 ### 使用
 
-1. Web 端对话机器人：[Psychology Q&A](https://udify.app/chat/vXCCPTRUjWIBdang)
+1. Web 端对话机器人：Psychology Q&A，链接在飞书云文档 `Engineering Wiki-算法-Dify chatbot`
 
 2. API : 支持调用对话型应用 API  [官网](https://dify.ai) 
 
