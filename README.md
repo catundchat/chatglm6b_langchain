@@ -1,8 +1,8 @@
-# ChatGLM-6B+Langchain 与 Dify 实现知识库检索
+# ChatGLM-6B+Langchain
 
 1. 基于 ChatGLM-6B+Langchain 实现本地化知识库检索与搜索引擎接入
 
-2. 基于 Dify 构建知识库与聊天机器人
+2. 对比 Dify 知识库云服务
 
 ## ChatGLM-6B+Langchain
 
@@ -57,12 +57,13 @@
 |:---|:---:|
 | gpt-3.5-turbo | ✔️ |
 | gpt-4 | ✔️ |
+|gpt-3|✔️|
 
 注：GPT-4 API 正在申请中无法测试
 
 ### 使用
 
-1. Web 端对话机器人：Psychology Q&A，链接在飞书云文档 `Engineering Wiki-算法-Dify chatbot`
+1. Web 端对话机器人：链接在飞书云文档 `Engineering Wiki-算法-Dify chatbot`
 
 2. API : 支持调用对话型应用 API  [官网](https://dify.ai) 
 
