@@ -33,7 +33,7 @@
 
 接入搜索引擎，知识库添加文件
 
-## Dify
+## ~~Dify
 
 ### 搭建过程
 
@@ -77,5 +77,10 @@
 |数据上传|多个文件|单个文件|
 |   可使用 GPT-4  |  ❌  |  ✔️   |
 |API调用|❌|✔️|
+
+## 参考文献
+
+1. [基于本地知识库的 ChatGLM 等大语言模型应用实现](https://github.com/imClumsyPanda/langchain-ChatGLM)
+2. [基于本地知识库的自动问答](https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui)
 
 
