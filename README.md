@@ -27,12 +27,42 @@
 
 3. 安装所需库 `pip install -r requirements.txt`
 
-4. 按需修改 `main.py` 文件中的文件路径，代码块，应用选择后运行即可。这里给出一份修改好的 `main.py` 供参考
+4. 按需修改 `main.py` 文件中的文件路径，代码块，应用选择后运行即可。已上传一份修改好的 `main.py` 供参考。其中的模型选择部分如下：
 
+```
+llm_model_name = 'THUDM/chatglm-6b-int4-qe'  # huggingface repository
+    # llm_model_name = 'THUDM/chatglm-6b' # or local file path
+    embedding_model_name = 'GanymedeNil/text2vec-large-chinese'  # huggingface: text to vector
+    embedding_model_name = 'shibing624/text2vec-base-chinese' # huggingface: text to vector
+    vector_store_path = './cache'
+    docs_path = './docs'
+    kg_vector_stores = {
+        '中文维基百科': './cache/zh_wikipedia',
+        '大规模金融研报': './cache/financial_research_reports',
+        '心理学与生活': './cache/psychology_and_life',
+        '初始化': './cache',
+    }  
+    # change it to your own knowledge database, if doesn't need it, set it "None"
+    # kg_vector_stores=None
+    patterns = ['模型问答', '知识库问答']  #
+    n_gpus=1
+```
 
 ### 使用
 
-接入搜索引擎，知识库添加文件
+- 接入搜索引擎
+- 导入数据库
+- Embedding 选择 text2vec-base 模型
+- llm 选择 ChatGLM-6B-INT4 
+- 有模型问答和知识库问答两种方式
+
+使用界面如下：
+
+![chinese_langchain](chinese_langchain.JPG)
+
+### 业务联系
+
+AI爱家可以借鉴其中的知识库问答部分，一部分是知识库问答，一部分是模型问答。其中的知识库问答实现原理是
 
 ## ~~Dify~~
 
