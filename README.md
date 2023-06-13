@@ -33,7 +33,9 @@
 
 接入搜索引擎，知识库添加文件
 
-## ~~Dify
+## ~~Dify~~
+
+Dify 部分详见[此链接](https://github.com/catundchat/Dify_chatbot)
 
 ### 搭建过程
 
