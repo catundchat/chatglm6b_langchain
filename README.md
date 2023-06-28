@@ -60,6 +60,8 @@ llm_model_name = 'THUDM/chatglm-6b-int4-qe'  # huggingface repository
 
 ![chinese_langchain](chinese_langchain.JPG)
 
+录制的使用chatglm6b完成多轮对话视频见`chatglm6b_demo.mp4`
+
 ### 业务联系
 
 AI爱家可以借鉴其中的知识库问答部分，一部分是知识库问答，一部分是模型问答。较模型问答而言，知识库问答不容易出现常识错误
