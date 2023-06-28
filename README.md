@@ -4,6 +4,20 @@
 
 2. 对比 Dify 知识库云服务
 
+# 目录
+
+- [ChatGLM-6B+LangChain](#ChatGLM-6B+LangChain)
+  - [知识库向量索引](#知识库向量索引)
+  - [运行配置](#运行配置)
+  - [搭建流程](#搭建流程)
+  - [使用过程](#使用过程)
+  - [业务联系](#业务联系)
+- [Dify](#Dify)
+  - [搭建过程](#搭建过程)
+  - [使用](#使用)
+- [Comparison](#Comparison)
+- [References](#References)
+
 ## ChatGLM-6B+Langchain
 
 ### 知识库向量索引
@@ -48,7 +62,7 @@ llm_model_name = 'THUDM/chatglm-6b-int4-qe'  # huggingface repository
     n_gpus=1
 ```
 
-### 使用
+### 使用过程
 
 - 接入搜索引擎
 - 导入数据库
@@ -113,7 +127,7 @@ Dify 部分详见[此链接](https://github.com/catundchat/Dify_chatbot)
 |   可使用 GPT-4  |  ❌  |  ✔️   |
 |API调用|❌|✔️|
 
-## 参考文献
+## References
 
 1. [基于本地知识库的 ChatGLM 等大语言模型应用实现](https://github.com/imClumsyPanda/langchain-ChatGLM)
 2. [基于本地知识库的自动问答](https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui)
