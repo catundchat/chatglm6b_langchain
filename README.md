@@ -131,5 +131,6 @@ Dify 部分详见[此链接](https://github.com/catundchat/Dify_chatbot)
 
 1. [基于本地知识库的 ChatGLM 等大语言模型应用实现](https://github.com/imClumsyPanda/langchain-ChatGLM)
 2. [基于本地知识库的自动问答](https://github.com/thomas-yanxin/LangChain-ChatGLM-Webui)
+3. [定制基于 ChatGLM-6B 的本地知识库+联网检索能力的 LangChain Agent](https://zhuanlan.zhihu.com/p/635724707)
 
 
