@@ -108,8 +108,6 @@ Dify 部分详见[此链接](https://github.com/catundchat/Dify_chatbot)
 | gpt-4 | ✔️ |
 |gpt-3|✔️|
 
-注：GPT-4 API 正在申请中无法测试
-
 ### 使用
 
 1. Web 端对话机器人：链接在飞书云文档 `Engineering Wiki-算法-Dify chatbot`
